@@ -30,6 +30,9 @@
     <ClCompile Include="reverse_string.cpp">
       <Filter>Source Files\Algorithms</Filter>
     </ClCompile>
+    <ClCompile Include="less_sold_book.cpp">
+      <Filter>Source Files\Algorithms</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base_algo.h">
@@ -43,6 +46,9 @@
     </ClInclude>
     <ClInclude Include="benchmark.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="less_sold_book.h">
+      <Filter>Header Files\Algorithms</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

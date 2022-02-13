@@ -144,12 +144,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="benchmark.cpp" />
+    <ClCompile Include="less_sold_book.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="reverse_string.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="base_algo.h" />
     <ClInclude Include="benchmark.h" />
+    <ClInclude Include="less_sold_book.h" />
     <ClInclude Include="print.h" />
     <ClInclude Include="reverse_string.h" />
   </ItemGroup>
