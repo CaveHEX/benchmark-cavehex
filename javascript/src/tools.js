@@ -1,6 +1,6 @@
 
 
-const benchmark = (func, input, iterations) => {
+const benchmark = (tag, func, input, iterations) => {
     iterations = iterations ?? 100000;
 
     const start = window.performance.now();
@@ -9,7 +9,7 @@ const benchmark = (func, input, iterations) => {
         const res = func(input);
 
         if (i === 0) {
-            console.log(res);
+            console.log(tag, res);
         }
     }
     const end = window.performance.now();
